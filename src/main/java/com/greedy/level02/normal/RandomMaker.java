@@ -7,7 +7,7 @@ public class RandomMaker {
     public String randomUpperAlphabet(int length){
         StringBuilder result = new StringBuilder(length);
         for (int i = 0; i < length; i++) {
-            char randomChar = (char) ('A' + Math.random() * 26);
+            char randomChar = (char) ( Math.random() * 26 + 'A');
             result.append(randomChar);
         }
         return result.toString();
