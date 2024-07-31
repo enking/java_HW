@@ -33,11 +33,3 @@ public class RandomMaker {
 
 
 }
-
-
-/*
-* + randomNumber(min:int, max:int):int
-+ randomUpperAlpabet(length:int):String
-+ rockPaperScissors():String
-+ tossCoin():String
-* */
