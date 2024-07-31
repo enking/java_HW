@@ -6,8 +6,11 @@ public class Calculator {
 
     }
     public int sum1to10(){
-        int c = 55;
-        return c;
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum = sum + i;
+        }
+        return sum;
     }
     public void checkMaxNumber(int first, int second){
         int ans;
