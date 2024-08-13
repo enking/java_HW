@@ -1,7 +1,13 @@
 package chap10;
 
+import java.util.Scanner;
+
 public class Application2 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("생년월일 입력 (yyyy-MM-dd 양식으로 작성) :");
+
+
 
     }
 }
@@ -33,3 +39,4 @@ InvalidAgeException이라는 사용자 정의 예외를 발생시키는 프로�
  *
  * 날짜 양식을 잘못 입력하셨습니다.
  */
+
